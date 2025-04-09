@@ -1,30 +1,3 @@
-// import React, { useState } from "react";
-
-// export default function SearchBar({ onSearch }) {
-//     const [query, setQuery] = useState("");
-  
-//     const handleSubmit = (e) => {
-//       e.preventDefault();
-//       if (query) onSearch(query);
-//     };
-  
-//     return (
-//       <form onSubmit={handleSubmit} className="flex gap-2 p-4">
-//         <input
-//           type="text"
-//           className="border rounded p-2 w-full"
-//           placeholder="Search destinations..."
-//           value={query}
-//           onChange={(e) => setQuery(e.target.value)}
-//         />
-//         <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded">
-//           Search
-//         </button>
-//       </form>
-//     );
-//   }
-  
-
 import { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import axios from 'axios';
